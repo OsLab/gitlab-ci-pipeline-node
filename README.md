@@ -8,14 +8,14 @@ Gitlab CI pipeline for Node applications
 # Supported tags
 | Tag | Image | Layers |
 | --- | --- |  --- |
-| ```6.11```| ```dockernodejs/gitlab-ci-pipeline:7.1``` | [![](https://images.microbadger.com/badges/image/dockernodejs/gitlab-ci-pipeline:6.11.svg)](https://microbadger.com/images/dockernodejs/gitlab-ci-pipeline:6.11)| 
-| ```7.10```| ```dockernodejs/gitlab-ci-pipeline:7.0``` | [![](https://images.microbadger.com/badges/image/dockernodejs/gitlab-ci-pipeline:7.10.svg)](https://microbadger.com/images/dockernodejs/gitlab-ci-pipeline:7.10)|
-| ```8.2```| ```dockernodejs/gitlab-ci-pipeline:5.6``` | [![](https://images.microbadger.com/badges/image/dockernodejs/gitlab-ci-pipeline:8.2.svg)](https://microbadger.com/images/dockernodejs/gitlab-ci-pipeline:8.2)|
+| ```6.11```| ```dockernodejs/gitlab-ci-pipeline:6.11``` | [![](https://images.microbadger.com/badges/image/dockernodejs/gitlab-ci-pipeline:6.11.svg)](https://microbadger.com/images/dockernodejs/gitlab-ci-pipeline:6.11)| 
+| ```7.10```| ```dockernodejs/gitlab-ci-pipeline:7.10``` | [![](https://images.microbadger.com/badges/image/dockernodejs/gitlab-ci-pipeline:7.10.svg)](https://microbadger.com/images/dockernodejs/gitlab-ci-pipeline:7.10)|
+| ```8.2```| ```dockernodejs/gitlab-ci-pipeline:8.2``` | [![](https://images.microbadger.com/badges/image/dockernodejs/gitlab-ci-pipeline:8.2.svg)](https://microbadger.com/images/dockernodejs/gitlab-ci-pipeline:8.2)|
 
 > Based on [Official Node images Alpine][docker_hub] and all versions come with:
 
 * Dependency Manager:
-    * [composer][composer]
+    * [npm][npm]
 * Automation of tasks:
     * [Apache Ant][apache_ant]
     * [Make][make]
@@ -104,6 +104,7 @@ test:7.10:
 This project is released under the MIT License, you agree to license your code under the [MIT license](LICENSE)
 
 [docker_hub]: https://hub.docker.com/_/node/
+[npm]: https://www.npmjs.com/
 [nodejs]: https://nodejs.org/en/
 [yarn]: https://yarnpkg.com
 [apache_ant]: http://ant.apache.org/
