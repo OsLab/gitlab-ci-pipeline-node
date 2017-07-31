@@ -16,4 +16,6 @@ set -xe \
  		wget \
 		ca-certificates \
 		curl \
-		apache-ant
+		apache-ant \
+		yarn
+

@@ -16,6 +16,7 @@ Gitlab CI pipeline for Node applications
 
 * Dependency Manager:
     * [npm][npm]
+    * [Yarn][yarn]
 * Automation of tasks:
     * [Apache Ant][apache_ant]
     * [Make][make]
