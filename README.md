@@ -3,7 +3,7 @@ Gitlab CI pipeline for Node applications
 > Docker image with everything you'll need to build and test JS applications on Gitlab Continous Integration
 
 ![Docker Pulls](https://img.shields.io/docker/pulls/dockernodejs/gitlab-ci-pipeline.svg)
-[![Build Status](https://travis-ci.org/node-docker/gitlab-ci-pipeline.svg?branch=master)](https://travis-ci.org/node-docker/gitlab-ci-pipeline)
+[![Build Status](https://travis-ci.org/OsLab/gitlab-ci-pipeline-node.svg?branch=master)](https://travis-ci.org/OsLab/gitlab-ci-pipeline-node.svg)
 
 # Supported tags
 | Tag | Image | Layers |
